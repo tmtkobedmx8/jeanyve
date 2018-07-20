@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		/** HEADER STYLES **/
+
+		.container-A {
+					display: flex;
+				}
+		.header-title h2 {
+			font-size: 32px;
+			text-align: center;
+			margin-top: 0;
+			margin-bottom: 0;
+			color: #116924;
+			font-family: 'Open Sans';
+		}
+		.title-bottom-jy {
+			font-size: 32px;
+			text-align: center;
+			margin-top: 0;
+			margin-bottom: 0;
+			color: #116924;
+			font-family: 'Open Sans';
+			padding-bottom: 0;
+		}
+		.border-line {
+			height: 5px;
+			width: 60%;
+			margin: 25px auto;
+			background-color: #c6a540;
+		}
+
+		/** CONTENT STYLES **/
+
+		.content-container {
+			border: 1px solid #aaa;
+			max-width: 955px;
+			margin: 0 auto;
+		}
+		.container-A p {
+			font-size: 18px;
+			line-height: 24px;
+			font-family: 'Open Sans';
+		}
+		.container-A  {
+			display: flex;
+			width: 80%;
+			margin: 0 auto;
+		}
+		.container-A .content-a {
+			text-align: justify;
+		}
+		.container-A .content-b {
+			width: 100%;
+			padding-top: 21px;
+			text-align: center;
+		}
+		.container-A .content-b img {
+			padding-top: 21px;
+		}
+		.icons {
+			display: flex;
+			text-align: center;
+			width: 90%;
+			margin: 0 auto;
+		}
+		.icon {
+			flex: 2;
+			max-width: 50%;
+		}
+		.icon img {
+			width: 84px;
+		}
+		.buy-now-link {
+			font-size: 18px;
+			text-align:center;
+			padding: 10px 20px; 
+			background-color: #116924; 
+			font-family: 'Open Sans';
+			line-height: 19px;
+			max-width: 40%;
+			margin: 0 auto;
+		}
+		.buy-now-link a {
+			text-decoration: none;
+			color: #fff;
+		}
+		.call-for-info {
+			font-size: 20px;
+			text-align: center; 
+			color: #116924; 
+			font-size: 20px; 
+			line-height: 26px;
+		}
+		.thin-client-message {
+			text-align:center; 
+			font-size:12px
+		}
+		.testimony-first {
+			font-size:18px; 
+			line-height:22px; 
+			font-family:'Open Sans';
+			width: 90%;
+			margin: 18px auto;
+		}
+		.mid-icon1 {
+			display: flex;
+		}
+		.mid-icon1 p {
+			margin: 0;
+		}
+		.mid-icon1 img {
+			width: 58px;
+			height: 58px;
+			margin-left: 50px;
+			margin-right: 20px;
+		}
+		
+
+		/* MEDIA QUERIES */
+
+		@media (min-width: 320px) {
+				.container-A {
+					display: grid;
+					width: 85%;
+					margin:0 auto;
+				}
+				.title-jy {
+					font-size: 20px !important;
+				}
+				.title-bottom-jy {
+					font-size: 20px !important;
+				}
+				.container-A .content-b img {
+					width: 85%;
+					margin-left: auto;
+					margin-right: auto;
+				}
+				.container-A .content-b {
+					width: 85%;
+					padding-top: 21px;
+					text-align: center;
+					margin-left: auto;
+					margin-right: auto;
+				}
+				.container-A .content-a p {
+					width: 85%;
+					margin-left: auto;
+					margin-right: auto;
+					font-size: 14px;
+				}
+				.content-a {
+					width: 85%;
+					margin-left: auto;
+					margin-right: auto;
+				}
+				.icons {
+					display: grid;
+				}
+				.icon {
+					max-width: 50%;
+					margin-left: auto;
+					margin-right: auto;
+				}
+				.buy-now-link {
+					font-size: 10px;
+				}
+				.call-for-info {
+					font-size: 15px;
+				}
+				.thin-client-message {
+					font-size: 10px !important;
+				}
+			}
+
+		@media ( min-width: 540px ) {
+			.content-a p {
+					font-size: 18px;
+				}
+				.buy-now-link {
+					font-size: 18px !important;
+				}
+				.call-for-info {
+					font-size: 20px;
+				}
+				.thin-client-message {
+					font-size: 12px !important;
+				}
+		}
+		
+		@media (min-width: 768px) {
+			.container-A {
+					display: flex;
+				}
+				.icons {
+					display: flex;
+				}
+			.container-A .content-a {
+					flex: 1;
+					padding: 20px;
+				}
+			.container-A .content-b {
+				flex: 1;
+				}
+				.title-jy {
+					font-size: 32px !important;
+				}
+				.title-bottom-jy {
+					font-size: 32px !important;
+					margin-bottom: 25px;
+				}
+			}
+
+		@media( max-width: 768px ) {
+			
+		}	
+	</style>
+</head>
+<body>
+	<div class="content-container">
+		<!-- Header Container-->
+		<div class="container-jy"> 
+			<div style="text-align: center;" class="header-container-jy">
+	        <img src="https://storage.googleapis.com/wzukusers/user-23560160/images/5af1ae2829eb0wO8qCa7/hero-18-50029-0536.png" width="70%" height="330" alt="Send your documentation soaring with the lightweight versatility of the cloud"/>
+	    </div>
+	    <!-- TITLE -->
+	    <div class="header-title">
+	        <h2 class="title-jy" >Think Outside the Box and Work in the Cloud</h2>
+	    </div>
+	    <div class="border-line"></div>
+			
+		</div> <!-- Header Container End-->
+		<div class="container-A">
+			<div class="content-a">
+				<p><strong>Dragon® Medical One can quickly and painlessly bring your practice into the present and allow you to convert to an EHR with ease. </strong></p>
+	        <p style="font-family: 'Open Sans'">Dragon® Medical One can be installed on any Windows-based clinical workstation or laptop. Once installed, clinicians simply open the app from the Windows Start menu, place the cursor where they want speech-recognized text to appear,and start dictating
+	            into any clinical or non-clinical, Windows-based application (e.g., EHR, Microsoft Outlook®, Microsoft Word®). Fast, extremely responsive, and highly accurate out-of-the-box (without the box), Dragon® Medical One provides clinical speech recognition
+	            and speech profiles that can be easily accessed across multiple devices. </p>
+			</div>
+			<div class="content-b">
+				<img class="picture-A" src="https://storage.googleapis.com/wzukusers/user-23560160/images/5af1ae31147ecfhoC0Zv/dmo-image-1.png"  alt="Tablet" />
+			</div>
+		</div>
+		<div class="border-line"></div>
+		<h2 class="title-bottom-jy">Lightweight Versatility, Heavyweight Performance</h2>
+		<div class="icons">
+			<div class="icon">
+				<img src="https://storage.googleapis.com/wzukusers/user-23560160/images/5af1ae2f95a8bmIBTI38/dmo-icon-1.png" alt="icon">
+				<p><strong>Automatic Accent Detection</strong><br> Instantly detects your regional accent for more precise documentation</p>
+			</div>
+			<div class="icon">
+				<img src="https://storage.googleapis.com/wzukusers/user-23560160/images/5af1ae2fe46f4B9r8Xzy/dmo-icon-2.png" alt="icon">
+				<p><strong>Create User Profiles</strong><br> Instantly Clinicians can create a profile easily and be documenting in minutes</p>
+			</div>
+			<div class="icon">
+				<img src="https://storage.googleapis.com/wzukusers/user-23560160/images/5af1ae30606a8AJFPvf0/dmo-icon-3.png" alt="icon">
+				<p><strong>Easy Installation*</strong><br> After initial setup and integration, installation is easy and in just minutes you will be creating patient notes</p>
+			</div>
+			<div class="icon">
+				<img src="https://storage.googleapis.com/wzukusers/user-23560160/images/5af1ae30b15e30h9UJFf/dmo-icon-4.png" alt="icon">
+				<p><strong>No Per-Device Limits</strong><br> Clinicians can stay productive while using their Windows-based device and focus on the unique patient story rather than usage limits</p>
+			</div>
+		</div>
+		<p class="buy-now-link"><a href="https://www.dictation.cloud/?var=jyg" title="Buy Dragon Medical One Now">BUY DRAGON MEDICAL ONE NOW</a></p>
+		<p class="call-for-info">Or Call (978) 595-2489 for More Information</p>
+		<p class="thin-client-message">*Thin clients may require additional implementation and costs.</p>
+		<div class="border-line"></div>
+		<div class="container-C">
+			<h2 class="title-bottom-jy">What Physicians Are Saying</h2>
+			<div class="container-C-header">
+				<p class="testimony-first" >&quot;Our goal was to transition at least 30% of patient stories to Nuance's cloud-based technology in conjunction with Cerner's EHR. Within just a few weeks, we were pleasantly surprised to see voluntary adoption rates of 60% to 90% across our hospitals.&quot;</p>
+			</div>
+			<div class="mid-icon1">
+				<img src="https://storage.googleapis.com/wzukusers/user-23560160/images/5af1ae33dfbd1aF0LpFA/dmo-quote.png" alt="icon">
+				<p>Ehab Hanna, MD, FHM <br> Chief Medical Information Officer <br> Universal Health Services (UHS), Inc.</p>
+			</div>
+			<div class="container-C-header">
+				<p class="testimony-first">&quot;Nuance speech-to-text technology untether physicians from the desktop and allows doctors to speak their clinical note and post it to the EHR from a mobile app, using their time much more efficiently.&quot;</p>
+			</div>
+			<div class="mid-icon1">
+				<img src="https://storage.googleapis.com/wzukusers/user-23560160/images/5af1ae33dfbd1aF0LpFA/dmo-quote.png" alt="icon">
+				<p>Jeremy Bernstein<br> Chief Technology Officer <br> UC San Diego Health System</p>
+			</div>
+			<div class="border-line"></div>
+		</div>
+	</div>
+</body>
+</html>
