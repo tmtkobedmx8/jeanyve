@@ -20,11 +20,11 @@
 		.title-bottom-jy {
 			font-size: 32px;
 			text-align: center;
-			margin-top: 0;
-			margin-bottom: 0;
 			color: #116924;
 			font-family: 'Open Sans';
 			padding-bottom: 0;
+			width: 90%;
+			margin: 0 auto;
 		}
 		.border-line {
 			height: 5px;
@@ -39,6 +39,7 @@
 			border: 1px solid #aaa;
 			max-width: 955px;
 			margin: 0 auto;
+			padding-top: 30px;
 		}
 		.container-A p {
 			font-size: 18px;
@@ -118,6 +119,46 @@
 			margin-left: 50px;
 			margin-right: 20px;
 		}
+		.paragraphs {
+			flex: 2;
+		}
+		.paragraph {
+			max-width: 40%;
+		}
+		.container-D {
+			width: 85%;
+			margin-left: auto;
+			margin-right: auto;
+			display: flex;
+		}
+		.container-E {
+			width: 85%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.image {
+			flex: 1;
+			width: 100%;
+		}
+		.image img {
+			width: 100%;
+		}
+		.label a {
+			padding: 10px 20px; 
+			background-color: #116924; 
+			color: #ffffff; 
+			text-decoration: none; 
+			font-family: 'Open Sans'; 
+			font-size: 18px; 
+			line-height: 19px
+		}
+		.label img {
+			width: 100%;
+		}
+		.price-labels {
+			flex: 2;
+			text-align: center;
+		}
 		
 
 		/* MEDIA QUERIES */
@@ -127,6 +168,9 @@
 					display: grid;
 					width: 85%;
 					margin:0 auto;
+				}
+				.label a {
+					font-size: 8px;
 				}
 				.title-jy {
 					font-size: 20px !important;
@@ -153,7 +197,7 @@
 					font-size: 14px;
 				}
 				.content-a {
-					width: 85%;
+					width: 100%;
 					margin-left: auto;
 					margin-right: auto;
 				}
@@ -174,11 +218,31 @@
 				.thin-client-message {
 					font-size: 10px !important;
 				}
+				.container-D {
+					display: grid;
+				}
+				.image {
+					width: 80%;
+					margin: 0 auto;
+				}
+				.text {
+					text-align: justify;
+				}
+				.label img {
+					width: 70%;
+				}
+				.header-container-jy img {
+					width: 270px;
+					height: 167px;
+				}
+				.container-E {
+					display: grid;
+				}
 			}
 
 		@media ( min-width: 540px ) {
 			.content-a p {
-					font-size: 18px;
+					font-size: 16px !important;
 				}
 				.buy-now-link {
 					font-size: 18px !important;
@@ -189,20 +253,36 @@
 				.thin-client-message {
 					font-size: 12px !important;
 				}
+				.label a {
+					font-size: 10px;
+				}
+				.header-container-jy img {
+					width: 400px;
+					height: 167px;
+				}
 		}
 		
-		@media (min-width: 768px) {
-			.container-A {
+			@media (min-width: 768px) {
+				.container-A {
+					display: flex;
+				}
+				.container-D {
+					display: flex;
+				}
+				.container-E {
+					width: 85%;
+					margin-left: auto;
+					margin-right: auto;
 					display: flex;
 				}
 				.icons {
 					display: flex;
 				}
-			.container-A .content-a {
+				.container-A .content-a {
 					flex: 1;
 					padding: 20px;
 				}
-			.container-A .content-b {
+				.container-A .content-b {
 				flex: 1;
 				}
 				.title-jy {
@@ -212,11 +292,34 @@
 					font-size: 32px !important;
 					margin-bottom: 25px;
 				}
-			}
-
-		@media( max-width: 768px ) {
-			
-		}	
+				.image {
+					margin-left: 30px;
+				}
+				.text {
+					text-align: left;
+				}
+				.label a {
+					font-size: 18px;
+				}
+				.label img {
+					width: 80%;
+				}
+				.price-labels {
+					margin-bottom: 100px;
+				}
+				.price-label-container {
+					flex: 2;
+				}
+				.header-container-jy img {
+			    width: 700px;
+			    height: 267px;
+					}
+				}
+				@media(min-width: 1024px) {
+					.header-container-jy img {
+				    width: 90%;
+				    height: 267px;
+					}	
 	</style>
 </head>
 <body>
@@ -285,7 +388,40 @@
 				<p>Jeremy Bernstein<br> Chief Technology Officer <br> UC San Diego Health System</p>
 			</div>
 			<div class="border-line"></div>
+			<h2 class="title-bottom-jy">Installation and Implementation is a Breeze with Cloud-Based Software</h2>
 		</div>
+		<div class="container-D">
+			<div class="paragraphs">
+				<p class="text"><strong>Dragon® Medical One gives clinicians and their support staff the power to instantaneously create secure digital documentation from anywhere and send it directly to any Windows®-based device and it even gives users the ability to work within Microsoft® Word and Windows Outlook, streamlining your workflow even more. </strong></p>
+				<p class="text">After initial setup and implementation installation takes only minutes on your Windows-based device and speech profiles transfer across all your Windows-based devices, including the mobile app, PowerMic® Mobile, and any other web and desktop applications
+        powered by Dragon® Medical One.</p>
+				<p class="text">Dragon® Medical One makes it as easy as possible to integrate, implement, and share information throughout your medical practice so that you can focus on quality patient care and not on creating paperwork.</p>
+			</div>
+			<div class="image"><img src="https://storage.googleapis.com/wzukusers/user-23560160/images/5af1ae32d2171I3Ekc5s/dmo-image-2.png" alt=""></div>
+		</div>
+		<div class="container-E">
+			<div class="paragraphs">
+				<p><strong>Portable</strong><br> Dragon® Medical One is designed for speed, accuracy and flexibility. It features speech profiles that can be accessed and shared across the widest range of devices in the industry</p>
+				<p><strong>Limitless Productivity</strong><br> Give your users the ability to speak freely and as much as they like. There are no per-device limits so clinicians can stay productive anywhere</p>
+				<p><strong>Budget-Friendly</strong><br> You don't need a huge budget to get huge benefits. Our cloud-based solution offers affordable subscription-based pricing so there's little up-front capital investment</p>
+				<p><strong>Greater Mobility</strong><br>Clinicians can complete their patient notes as soon as they meet with each patient. All within any Windows-based device using the flexibility of a mobile app</p>
+				<p><strong>Scalable</strong><br>PowerMic Mobile is highly scalable so it can grow with your organization and offers web-based central management</p>
+				<p><strong>iOS and Smartphone Compatible</strong><br>Smartphone Compatible App is available via the App Store and Google Play store and iOS and Android compatible simplifying the documentation process</p>
+			</div>
+			<div class="price-label-container">
+				<div class="price-labels">
+				<div class="label"><img src="https://storage.googleapis.com/wzukusers/user-23560160/images/5af1ae2cca852eMzbu19/dmo-block-dmo.png" title="Buy Dragon Medical One Now" alt="Nuance Dragon Medical One"><p><a href="https://www.dictation.cloud/?var=jyg">BUY DRAGON MEDICAL ONE NOW</a></p></div>
+			</div>
+			<div class="price-labels">
+				<div class="label"><img src="https://storage.googleapis.com/wzukusers/user-23560160/images/5af1ae2e31296TrvlwC8/dmo-block-powermic.png" title="Buy Dragon Medical One Now" alt="Nuance PowerMic Mobile"><p><a href="https://www.dictation.cloud/shop/powermic-mobile?var=jyg">BUY POWERMIC MOBILE NOW</a></p></div>
+			</div>
+			</div>
+		</div>
+		<div class="border-line"></div>
+		<div class="label">
+			<p class="buy-now-link"><a href="https://www.dictation.cloud/?var=jyg" title="Buy Dragon Medical One Now">BUY DRAGON MEDICAL ONE NOW</a></p>
+		</div>
+		<p class="call-for-info">Or Call (978) 595-2489 for More Information</p>
 	</div>
 </body>
 </html>
